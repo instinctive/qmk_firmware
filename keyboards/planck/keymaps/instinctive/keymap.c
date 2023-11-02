@@ -30,17 +30,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                 ),
 
 	[1] = LAYOUT_ortho_4x12(
-                KC_1,   KC_2,    KC_3,   KC_4,    KC_5,    KC_NO, KC_NO, KC_6,    KC_7,    KC_8,   KC_9,   KC_0,
-                KC_ESC, KC_GRV,  KC_EQL, KC_MINS, KC_LPRN, KC_NO, KC_NO, KC_RPRN, OS_CMD,  OS_ALT, OS_CTL, OS_SFT,
-                KC_LT,  KC_ASTR, KC_DLR, KC_GT,   KC_LBRC, KC_NO, KC_NO, KC_RBRC, KC_PDOT, KC_NO,  KC_NO,  KC_NO,
-                KC_NO,  KC_NO,   KC_NO,  LA_TWO,  KC_TAB,  KC_NO, KC_NO, KC_SPC,  KC_TRNS, KC_NO,  KC_NO,  KC_NO
+                KC_1,   KC_2,    KC_3,   KC_4,    KC_5,    KC_NO, KC_NO, KC_6,    KC_7,    KC_8,    KC_9,   KC_0,
+                KC_ESC, KC_GRV,  KC_EQL, KC_MINS, KC_LPRN, KC_NO, KC_NO, KC_RPRN, OS_CMD,  OS_ALT,  OS_CTL, OS_SFT,
+                KC_LT,  KC_ASTR, KC_DLR, KC_GT,   KC_LBRC, KC_NO, KC_NO, KC_RBRC, KC_DOT,  KC_COMM, KC_NO,  KC_NO,
+                KC_NO,  KC_NO,   KC_NO,  LA_TWO,  KC_TAB,  KC_NO, KC_NO, KC_SPC,  KC_TRNS, KC_NO,   KC_NO,  KC_NO
                 ),
 
 	[2] = LAYOUT_ortho_4x12(
-                KC_1,   KC_2,   KC_3,   KC_4,    KC_5,    KC_NO, KC_NO, KC_6,    KC_7,    KC_8,    KC_9,    KC_0,
-                OS_SFT, OS_CTL, OS_ALT, OS_CMD,  KC_LPRN, KC_NO, KC_NO, KC_RPRN, KC_MINS, KC_SLSH, KC_BSLS, KC_ENT,
-                KC_NO,  KC_NO,  KC_NO,  KC_PDOT, KC_LBRC, KC_NO, KC_NO, KC_RBRC, KC_NO,   KC_NO,   KC_NO,   KC_NO,
-                KC_NO,  KC_NO,  KC_NO,  KC_TRNS, KC_LSFT, KC_NO, KC_NO, KC_BSPC, LA_ONE,  KC_NO,   KC_NO,   KC_NO
+                KC_1,   KC_2,   KC_3,    KC_4,    KC_5,    KC_NO, KC_NO, KC_6,    KC_7,    KC_8,    KC_9,    KC_0,
+                OS_SFT, OS_CTL, OS_ALT,  OS_CMD,  KC_LPRN, KC_NO, KC_NO, KC_RPRN, KC_MINS, KC_SLSH, KC_BSLS, KC_ENT,
+                KC_NO,  KC_NO,  KC_COMM, KC_DOT,  KC_LBRC, KC_NO, KC_NO, KC_RBRC, KC_NO,   KC_NO,   KC_NO,   KC_NO,
+                KC_NO,  KC_NO,  KC_NO,   KC_TRNS, KC_LSFT, KC_NO, KC_NO, KC_BSPC, LA_ONE,  KC_NO,   KC_NO,   KC_NO
                 ),
 
 	[3] = LAYOUT_ortho_4x12(

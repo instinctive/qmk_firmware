@@ -18,15 +18,15 @@ Layer ONE (`LA1` key is held):
 
     1   2   3   4   5   _   _   6   7   8   9   0
     ESC `   =   -   (   _   _   )   CMD ALT CTL SFT
-    <   *   $   >   [   _   _   ]   .   _   _   _
+    <   *   $   >   [   _   _   ]   .   ,   _   _
     _   _   _   LA2 TAB _   _   SPC XXX _   _   _
 
 Layer TWO (`LA2` key is held):
 
     1   2   3   4   5   _   _   6   7   8   9   0
     SFT CTL ALT CMD (   _   _   )   -   /   \   ENT
-    _   _   _   .   [   _   _   ]   _   _   _   _
-    _   _   _   XXX TAB _   _   BSP LA1 _   _   _
+    _   _   ,   .   [   _   _   ]   _   _   _   _
+    _   _   _   XXX SFT _   _   BSP LA1 _   _   _
 
 Layer THREE (`LA1` and `LA2` are both held):
 
